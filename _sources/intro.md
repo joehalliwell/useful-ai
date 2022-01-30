@@ -36,15 +36,22 @@ that's just a computation."
 
 ## The Real AI Fallacy
 
-As we'll see this flawed concept of "Real AI" is at the root of many obstacles
-to building useful AI systems. It misleads stakeholders and practitioners alike,
-and sets AI projects up for failure -- sometimes in spite of their success!
+This flawed concept of "Real AI" is at the root of many obstacles to building
+useful AI systems.
+
+First, it misleads stakeholders and sets AI projects up for failure -- sometimes
+in spite of their success!
 
 Another manifestation of this error, is the tendency to focus on how AI systems
 differ from regular software. But, please, if you take nothing else away from
 this guide, embrace the reality that AI systems are just software.
 
+Finally, an perhaps most perniciously of all, it misleads practitioners
+themselves. This results in tension, unhappiness and under-performance.
+
 ## How this guide is structured
+
+Like that:
 
 - People
 - Engineering
