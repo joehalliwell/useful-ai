@@ -1,6 +1,7 @@
 # Useful AI
 
-A book about building AI systems that do useful work.
+Source code for [Useful AI](http://joehalliwell.com/useful-ai), a guide to
+building AI systems that do useful work.
 
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
