@@ -3,6 +3,12 @@
 
 format: jb-book
 root: intro
+
+options:
+  numbered: false
+
 chapters:
-- file: markdown
-- file: notebooks
+- file: people
+- file: engineering
+- file: research
+- file: outro
