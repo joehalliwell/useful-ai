@@ -17,7 +17,7 @@ companies who have invested billions in them.
 
 ## Clients can't estimate the dollar benefit of the solution
 
-- and nor can you
+- ...and nor can you
 
 ## How to be an awful client
 
