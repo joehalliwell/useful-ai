@@ -13,10 +13,14 @@ Learning (ML) component.
 
 You hopefully.
 
-But more generally, anyone interested in building or helping to build AI systems
-that do useful work. That includes, but is not limited to: business sponsors,
-subject matter experts, product designers, UI/UX people, software engineers,
-and, of course, AI practitioners.
+The guide is written from the perspective of an AI practitioner, but it's intended
+to be useful for anyone interested in building or helping to build AI
+systems that do useful work. Including:
+
+- Business sponsors
+- Subject matter experts (SME)
+- Product designers
+- Software engineers
 
 ## The Real AI Fallacy
 
