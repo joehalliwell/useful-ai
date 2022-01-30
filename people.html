@@ -28,6 +28,7 @@
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/style.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
@@ -52,7 +53,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Engineering" href="engineering.html" />
-    <link rel="prev" title="Useful AI" href="intro.html" />
+    <link rel="prev" title="Overview" href="intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -74,11 +75,6 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
       
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
-        
-      
-      
-      <img src="_static/logo.png" class="logo" alt="logo">
       
       
       <h1 class="site-logo" id="site-title">Useful AI</h1>
@@ -92,7 +88,7 @@
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="intro.html">
-   Useful AI
+   Overview
   </a>
  </li>
 </ul>
@@ -169,22 +165,6 @@
 
             <!-- Source interaction buttons -->
 
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/joehalliwell/useful-ai"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/joehalliwell/useful-ai/issues/new?title=Issue%20on%20page%20%2Fpeople.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        
-    </div>
-</div>
-
             <!-- Full screen (wrap in <a> to have style consistency -->
 
 <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
@@ -205,23 +185,23 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#your-users-expect-general-ai">
-   Your users expect General AI
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#your-users-can-t-estimate-the-dollar-benefit-of-the-solution">
-   Your users can’t estimate the dollar benefit of the solution
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#some-good-reasons-to-sack-a-client">
-   Some good reasons to sack a client
+  <a class="reference internal nav-link" href="#many-expect-general-ai">
+   Many expect General AI
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#ai-systems-make-mistakes-that-no-person-would-make">
    AI systems make mistakes that no person would make
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#clients-can-t-estimate-the-dollar-benefit-of-the-solution">
+   Clients can’t estimate the dollar benefit of the solution
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-to-be-an-awful-client">
+   How to be an awful client
   </a>
  </li>
 </ul>
@@ -245,23 +225,23 @@
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#your-users-expect-general-ai">
-   Your users expect General AI
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#your-users-can-t-estimate-the-dollar-benefit-of-the-solution">
-   Your users can’t estimate the dollar benefit of the solution
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#some-good-reasons-to-sack-a-client">
-   Some good reasons to sack a client
+  <a class="reference internal nav-link" href="#many-expect-general-ai">
+   Many expect General AI
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#ai-systems-make-mistakes-that-no-person-would-make">
    AI systems make mistakes that no person would make
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#clients-can-t-estimate-the-dollar-benefit-of-the-solution">
+   Clients can’t estimate the dollar benefit of the solution
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-to-be-an-awful-client">
+   How to be an awful client
   </a>
  </li>
 </ul>
@@ -276,28 +256,36 @@
   <div class="tex2jax_ignore mathjax_ignore section" id="people">
 <h1>People<a class="headerlink" href="#people" title="Permalink to this headline">¶</a></h1>
 <p>Expectation management. Building healthy client relationships.</p>
-<div class="section" id="your-users-expect-general-ai">
-<h2>Your users expect General AI<a class="headerlink" href="#your-users-expect-general-ai" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="many-expect-general-ai">
+<h2>Many expect General AI<a class="headerlink" href="#many-expect-general-ai" title="Permalink to this headline">¶</a></h2>
+<p>Despite glaring evidence to the contrary, many people think that your two-bit
+operation is going to produce an AI system that is several times better than the
+Home Assistants and Recommendation systems produced by giant technology
+companies who have invested billions in them.</p>
 <ul class="simple">
 <li><p>“self-learning”</p></li>
 </ul>
 </div>
-<div class="section" id="your-users-can-t-estimate-the-dollar-benefit-of-the-solution">
-<h2>Your users can’t estimate the dollar benefit of the solution<a class="headerlink" href="#your-users-can-t-estimate-the-dollar-benefit-of-the-solution" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="ai-systems-make-mistakes-that-no-person-would-make">
+<h2>AI systems make mistakes that no person would make<a class="headerlink" href="#ai-systems-make-mistakes-that-no-person-would-make" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>See bad AI</p></li>
+</ul>
+</div>
+<div class="section" id="clients-can-t-estimate-the-dollar-benefit-of-the-solution">
+<h2>Clients can’t estimate the dollar benefit of the solution<a class="headerlink" href="#clients-can-t-estimate-the-dollar-benefit-of-the-solution" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>and nor can you</p></li>
 </ul>
 </div>
-<div class="section" id="some-good-reasons-to-sack-a-client">
-<h2>Some good reasons to sack a client<a class="headerlink" href="#some-good-reasons-to-sack-a-client" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="how-to-be-an-awful-client">
+<h2>How to be an awful client<a class="headerlink" href="#how-to-be-an-awful-client" title="Permalink to this headline">¶</a></h2>
+<p>Here are some good reasons to sack a client:</p>
 <ul class="simple">
 <li><p>lack of respect for the problem</p></li>
 <li><p>passivity</p></li>
 <li><p>unshakeable unrealistic expectations</p></li>
 </ul>
-</div>
-<div class="section" id="ai-systems-make-mistakes-that-no-person-would-make">
-<h2>AI systems make mistakes that no person would make<a class="headerlink" href="#ai-systems-make-mistakes-that-no-person-would-make" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -330,7 +318,7 @@
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Useful AI</p>
+            <p class="prev-next-title">Overview</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="engineering.html" title="next page">

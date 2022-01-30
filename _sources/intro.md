@@ -1,4 +1,4 @@
-# Useful AI
+# Overview
 
 This is an opinionated guide to building Artificial Intelligence (AI) systems
 that do useful work in the world.
@@ -56,3 +56,9 @@ Like that:
 - People
 - Engineering
 - Research
+
+## Credits
+
+This project is created using the excellent open source
+[Jupyter Book project](https://jupyterbook.org/) and the
+[executablebooks/cookiecutter-jupyter-book template](https://github.com/executablebooks/cookiecutter-jupyter-book).
