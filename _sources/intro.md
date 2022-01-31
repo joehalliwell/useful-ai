@@ -57,3 +57,7 @@ useful AI systems. It:
 This project is created using the excellent open source
 [Jupyter Book project](https://jupyterbook.org/) and the
 [executablebooks/cookiecutter-jupyter-book template](https://github.com/executablebooks/cookiecutter-jupyter-book).
+
+## Further reading
+
+- [The Turing Way](https://the-turing-way.netlify.app/welcome.html)
